@@ -1,4 +1,4 @@
-//! Test suggetions to borrow generic arguments instead of moving. Tests for other instances of this
+//! Test suggestions to borrow generic arguments instead of moving. Tests for other instances of this
 //! can be found in `moved-value-on-as-ref-arg.rs` and `borrow-closures-instead-of-move.rs`
 //@ run-rustfix
 //@ aux-crate:aux=suggest-borrow-for-generic-arg-aux.rs
